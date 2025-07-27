@@ -33,12 +33,7 @@ export default {
 		</transition>
 
 		<!-- Scroll to top -->
-		<back-to-top
-			visibleoffset="500"
-			right="30px"
-			bottom="20px"
-			class="shadow-lg"
-		>
+		<back-to-top visibleoffset="500" right="30px" bottom="20px" class="shadow-lg">
 			<i data-feather="chevron-up"></i>
 		</back-to-top>
 
@@ -56,11 +51,7 @@ export default {
 }
 
 .vue-back-to-top {
-	@apply p-2 bg-indigo-500 hover:bg-indigo-600 text-white transition
-        duration-500
-        ease-in-out
-        transform
-        hover:-translate-y-1 hover:scale-110;
+	@apply p-2 bg-indigo-500 hover:bg-indigo-600 text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110;
 	border-radius: 50%;
 	font-size: 22px;
 	line-height: 22px;
